@@ -1,5 +1,4 @@
 function DownloadFile(url,download){
-    // url Downloading : making it readdy for zip conversation 
     console.log("starting downloading.........");
     setTimeout(() => {
         let path =  url.split("/").pop();
@@ -9,7 +8,6 @@ function DownloadFile(url,download){
 
 
 function compressFile(path, compress) {
-    // url data zip convert : url data compress
 console.log("file started compressing");
 setTimeout(() => {
     const comp = path.split(".")[0] + ".zip";
