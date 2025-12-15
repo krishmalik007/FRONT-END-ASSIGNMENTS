@@ -3,7 +3,7 @@ var person1 = {
     age: 25,
 
 };
-// person2 object person1 property as a prototype
+
 console.log(person1); 
 var person2 = Object.create(person1);
 console.log(person2); 

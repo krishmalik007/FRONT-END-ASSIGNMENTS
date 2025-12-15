@@ -1,4 +1,4 @@
-// function terminator :-
+
 function multiple(a,b){
 let c = a*b;
     console.log(c);
